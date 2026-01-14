@@ -1,0 +1,20 @@
+[
+  {
+    "job_id": "data_analyst",
+    "title": "Data Analyst",
+    "family": "Data & Analytics",
+    "P_job": { "independence": 0.7, "ambiguity": 0.4, "cognitive": 0.9, "pace": 0.6, "structure": 0.7 },
+    "A_job": { "income": 0.7, "purpose": 0.6, "leadership": 0.3, "flexibility": 0.7, "balance": 0.6 },
+    "C_job": { "education": 0.5, "experience": 0.4, "learning": 0.6 },
+    "X_job": { "sales": false, "political": false, "travel": false }
+  },
+  {
+    "job_id": "policy_researcher",
+    "title": "Policy Researcher",
+    "family": "Policy & Research",
+    "P_job": { "independence": 0.6, "ambiguity": 0.7, "cognitive": 0.8, "pace": 0.5, "structure": 0.6 },
+    "A_job": { "income": 0.5, "purpose": 0.9, "leadership": 0.4, "flexibility": 0.6, "balance": 0.7 },
+    "C_job": { "education": 0.7, "experience": 0.5, "learning": 0.7 },
+    "X_job": { "sales": false, "political": true, "travel": false }
+  }
+]
