@@ -30,6 +30,8 @@ def load_jobs():
     st.stop()
 
 jobs = load_jobs()
+st.write("Jobs loaded:", len(jobs))
+
 
 # -----------------------------
 # Normalizers
