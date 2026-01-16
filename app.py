@@ -28,9 +28,6 @@ def load_jobs():
 
     st.error("Cannot find jobs_onet_mvp.json. Put it in the repo root (same folder as app.py) and redeploy.")
     st.stop()
-import os
-st.write("Working dir:", os.getcwd())
-st.write("Files in dir:", os.listdir("."))
 
 jobs = load_jobs()
 st.write("Jobs loaded:", len(jobs))
